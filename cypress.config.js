@@ -5,10 +5,8 @@ const { createEsbuildPlugin } = require("@badeball/cypress-cucumber-preprocessor
 
 module.exports = defineConfig({
   e2e: {
-    // --- ADICIONE ISTO AQUI ---
     viewportWidth: 1280,
     viewportHeight: 720,
-    // --------------------------
     
     specPattern: "**/*.feature",
     async setupNodeEvents(on, config) {

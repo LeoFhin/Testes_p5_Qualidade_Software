@@ -3,6 +3,10 @@ class WikiArtigoPage {
     get caixaInfo() { return cy.get('.infobox'); }
     get msgNenhumResultado() { return cy.get('.mw-search-nonefound'); }
     get linkIdiomaIngles() { return cy.get('.interlanguage-link-target[lang="en"]'); }
+    get linkIdiomaEspanhol() { return cy.get('.interlanguage-link-target[lang="es"]'); }
+    get linkIdiomaFrances() { return cy.get('.interlanguage-link-target[lang="fr"]'); }
+
+     
 
     validarTitulo(texto) {
         this.titulo.should('contain.text', texto);

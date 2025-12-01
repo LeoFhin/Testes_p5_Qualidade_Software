@@ -43,6 +43,14 @@ Then("devo ver um link para a versão em {string}", (idioma) => {
     if (idioma === "English") {
         WikiArtigo.linkIdiomaIngles.should('exist'); 
     }
+
+     if (idioma === "Spanish") {
+        WikiArtigo.linkIdiomaIngles.should('exist'); 
+    }
+
+     if (idioma === "French") {
+        WikiArtigo.linkIdiomaIngles.should('exist'); 
+    }
 });
 
 Then("a URL deve ser diferente da página inicial", () => {

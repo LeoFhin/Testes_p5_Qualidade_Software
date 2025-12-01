@@ -16,3 +16,15 @@ Funcionalidade: Validação de Conteúdo
   Cenario: Verificar existência de versão em Inglês
     Quando pesquiso pelo termo "Futebol"
     Então devo ver um link para a versão em "English"
+
+  # Cenário 6
+  Cenario: Verificar existência de versão em Francês
+  Quando pesquiso pelo termo "Futebol"
+  Então devo ver um link para a versão em "Français"
+
+  # Cenário 7
+  Cenario: Verificar existência de versão em Espanhol
+  Quando pesquiso pelo termo "Futebol"
+  Então devo ver um link para a versão em "Español"
+
+  

@@ -21,3 +21,13 @@ Funcionalidade: Busca na Wikipédia
   Cenario: Validar caixa de busca vazia
     Quando pesquiso pelo termo "{enter}"
     Então devo permanecer na home ou ir para página de pesquisa
+  
+  # Cenário 4 
+  Cenario: Buscar por termo com letras minúsculas
+    Quando pesquiso pelo termo "brasil"
+    Então devo ver o título do artigo contendo "Brasil"
+
+  # Cenário 5
+  Cenario: Buscar termo com espaços extras
+    Quando pesquiso pelo termo "   Brasil   "
+    Então devo ver o título do artigo contendo "Brasil"

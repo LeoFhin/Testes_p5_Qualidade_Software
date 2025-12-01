@@ -15,6 +15,11 @@ class WikiArtigoPage {
     validarDadoInfobox(rotulo, valorEsperado) {
         this.caixaInfo.contains('th', rotulo).parent().find('td').should('contain.text', valorEsperado);
     }
+
+    validarSecaoIndice(secao) {
+    cy.get('.vector-toc-text').contains(secao).should('be.visible');
+    }   
+
 }
 
 export default new WikiArtigoPage();

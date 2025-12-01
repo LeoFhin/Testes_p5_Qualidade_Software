@@ -60,3 +60,7 @@ Then("a URL deve ser diferente da página inicial", () => {
 Then("devo visualizar a seção de artigo em destaque na home", () => {
     WikiHome.secaoDestaque.should('exist');
 });
+
+Then("devo ver a seção {string} no índice", (secao) => {
+  WikiArtigo.validarSecaoIndice(secao);
+});

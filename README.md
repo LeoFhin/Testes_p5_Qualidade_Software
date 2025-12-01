@@ -54,6 +54,11 @@ npm install
 ## ✒️ Autores
 
 * **Leonardo Santos**
-
+* **Lucas Viana**
+* **Miguel Rodrigues**
+* **Saulo Pinto**
+* **Victor Jairo**
+* **Luana campos Ferreira**
+* **Itaji de Carvalho Brito**
 ---
 Desenvolvido para a disciplina de Qualidade de Software.
